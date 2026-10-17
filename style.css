@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f3ff; color: #1f2937; }
+header { background: #7e22ce; color: #fff; text-align: center; padding: 16px; }
+header h1 { margin: 0; }
+footer { text-align: center; padding: 16px; font-size: 13px; color: #6b7280; }
+main { padding: 16px; }
+.busca { max-width: 420px; margin: 0 auto 16px; display: flex; gap: 8px; }
+.busca input { flex: 1; padding: 10px; border: 1px solid #c4b5fd; border-radius: 8px; }
+.busca button { padding: 10px 14px; border: none; border-radius: 8px; background: #7e22ce; color: #fff; cursor: pointer; }
+#resultado { max-width: 420px; margin: 0 auto 24px; }
+.cartao { background: #fff; border-radius: 12px; padding: 16px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,.1); text-transform: capitalize; }
+.cartao img { width: 180px; border: 1px solid #e5e7eb; }
+.erro { background: #fef2f2; color: #b91c1c; padding: 12px; border-radius: 8px; text-align: center; }
+.favoritos { max-width: 420px; margin: 0 auto; padding: 0 16px 40px; }
+.favoritos h2 { color: #7e22ce; text-align: center; margin-bottom: 12px; }
+.fav-item { display: flex; align-items: center; gap: 10px; background: #fff; border-radius: 10px; padding: 6px 12px; margin-bottom: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.08); text-transform: capitalize; }
+.fav-item img { width: 48px; border: 1px solid #e5e7eb; }
+.fav-item span { flex: 1; }
+.fav-item button { border: none; background: #fef2f2; color: #b91c1c; border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+.btn-favoritar { margin-top: 10px; padding: 8px 16px; border: none; border-radius: 8px; background: #fbbf24; color: #4c1d95; font-weight: 600; cursor: pointer; }

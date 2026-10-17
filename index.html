@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorador de Países</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>🌍 Explorador de Países</h1></header>
+  <main>
+    <section class="busca">
+      <input id="entrada" type="text" placeholder="Nome do país (ex.: Brasil, Japão)">
+      <button id="btn-buscar">Buscar</button>
+      <button id="btn-aleatorio" title="País aleatório">🎲</button>
+    </section>
+    <section id="resultado"></section>
+
+    <section class="favoritos">
+      <h2>✈️ Quero visitar <span id="contador"></span></h2>
+      <div id="lista-favoritos"></div>
+    </section>
+  </main>
+  <footer>Versão <span id="versao"></span></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
