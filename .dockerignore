@@ -1,0 +1,8 @@
+.git
+.gitignore
+README.md
+docs
+supabase.sql
+docker-compose.yml
+Dockerfile
+.dockerignore
