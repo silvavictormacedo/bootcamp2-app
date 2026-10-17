@@ -120,6 +120,7 @@ async function carregarFavoritos() {
     const { data, error } = await db.from("favoritos")
       .select("*").order("criado_em", { ascending: false });
     if (error) throw error;
+document.getElementById("contador").textContent = "(" + data.length + ")";
 
     if (data.length === 0) {
       listaFavoritos.innerHTML = "<p>Nenhum país salvo ainda. Busque e salve!</p>";
